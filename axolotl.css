@@ -31,3 +31,4 @@ button { color: white; font-family: sans-serif; padding: 8px; border: none; bord
 .y { background-color: green; }
 .n { background-color: maroon; }
 button:hover { background: cyan; color: black; transform: rotateY(35deg) rotateX(35deg); }
+.n:hover { transform: scaleY(0); }
