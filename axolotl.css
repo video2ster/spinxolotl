@@ -1,0 +1,31 @@
+@keyframes boing {
+  from {transform: translateY(16px); }
+  to {background-color: translateY(-16px); }
+}
+@keyframes tilt {
+  from { transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg); }
+  to { transform: rotateY(-360deg) rotateX(-360deg) rotateZ(-360deg); }
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  animation: boing;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  width: 640px;
+  margin: auto;
+}
+img {
+  max-height: 128px;
+  animation: tilt;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border: 2px solid white;
+}
+button { color: white; font-family: sans-serif; padding: 8px; border-radius: 4px; }
+.y { background-color: green; }
+.n { background-color: maroon; }
