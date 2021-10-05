@@ -33,11 +33,19 @@ button { color: white; font-family: sans-serif; padding: 8px; border: none; bord
 button:hover { background: cyan; color: black; transform: rotateY(35deg) rotateX(35deg); }
 .n:hover { transform: scaleY(0); transition: 0.1s; }
 .n:focus::after {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  left: -1%;
   content: "YOU HAVE REFUSED THE AXOLOTL.\nWITH THIS CHARACTER'S REFUSAL,\nTHE THREAD OF THE PROPHECY IS S-";
-  color: white;
+  color: red;
   background: black;
 }
 .y:focus::after {
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  left: -1%;
   content: "Congratulations! You have recieved: ONE axolotl!";
   color: lime;
 }
