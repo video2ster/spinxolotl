@@ -30,4 +30,4 @@ img {
 button { color: white; font-family: sans-serif; padding: 8px; border: none; border-radius: 4px; transition: 0.5s; }
 .y { background-color: green; }
 .n { background-color: maroon; }
-button:hover { background: cyan; color: black; transform: rotateY(10deg) rotateX(10deg); }
+button:hover { background: cyan; color: black; transform: rotateY(35deg) rotateX(35deg); }
