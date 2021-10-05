@@ -49,3 +49,4 @@ button:hover { background: cyan; color: black; transform: rotateY(35deg) rotateX
   content: "Congratulations! You have recieved: ONE axolotl!";
   color: lime;
 }
+button:focus { display: none; }
