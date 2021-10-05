@@ -26,6 +26,6 @@ img {
   animation-iteration-count: infinite;
   border: 2px solid white;
 }
-summary { color: white; font-family: sans-serif; padding: 8px; border: none; border-radius: 4px; transition: 0.5s; }
+details { color: white; font-family: sans-serif; padding: 8px; border: none; border-radius: 4px; }
 .y { background-color: green; }
 .n { background-color: maroon; }
